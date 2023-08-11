@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>FAQ - Comprex</title>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="#">What's New?</a></li>
+                    <li><a href="">FORUMS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <div class="hero">
+        <h1 style="font-family: 'poppins';">FAQ - Comprex</h1>
+        <p>Frequently Asked Questions (FAQ)</p>
+    </div>
+
+    <section class="faq">
+    <ul class="accordion">
+        <li><input type="radio" name="accordion" id="first">
+            <label for="first">What to do at Comprex?</label>
+            <div class="content">
+                <p>Well, Comprex is </p>
+            </div>
+        </li>
+    </ul>
+    <ul class="accordion">
+        <li><input type="radio" name="accordion" id="second">
+            <label for="second">Does Comprex Need accounts?</label>
+            <div class="content">
+                <p>We are the best</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="accordion">
+        <li><input type="radio" name="accordion" id="third">
+            <label for="third">How Comprex protect us?</label>
+            <div class="content">
+                <p>We are the best</p>
+            </div>
+        </li>
+    </ul>
+    </section>
+
+    
+<!----Hide or Open Menu-->
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script></body></html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>HOME - VirtualPedia</title>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">What's New?</a></li>
+                    <li><a href="forum.html">FORUMS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+<!--Banner-->
+    <section class="banner">
+        <div class="banner-text">
+            <h2>VirtualPedia</h2>
+            <p>A Trusted education platform</p>
+        </div>
+    </section>
+
+
+<!--dadas-->
+    <!--<section class="search">
+        <div class="search">
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Search Anything" name="q">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>-->
+
+<!---idk-->
+    <section class="course">
+        <h1>Why VirtualPedia?</h1>
+        <p>VirtualPedia is a multilingual, easy to use and fast website. It includes many type of articles with category including science, current afairs, politics and more.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Easy to use</h3>
+                <p>VirtualPedia is a super easy and comfort website. You can get into your destination just by a few clicks.</p>
+            </div>
+            <div class="course-col">
+                <h3>Written by User and AI</h3>
+                <p>Most of the encyclopedia articles are written by users. But we give up-to-date info by AI.</p>
+            </div>
+            <div class="course-col">
+                <h3>Accessible on all devices</h3>
+                <p>VirtualPedia can be used in any devices including computer, mobile phones, tablets and more.</p>
+            </div>
+        </div>
+    </section>
+
+<!--campus-->
+
+    <section class="inside">
+        <h1>What's special inside us?</h1>
+        <p>VirtualPedia is a multilingual, easy to use and fast website. It includes many type of articles with category including science, current afairs, politics and more.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Calculator</h3>
+                <p>Use calculator while you are reading or writing to complete sums faster.</p>
+                <button id="calbtn"><a href="calculator.html">Open Calculator</a></button>
+            </div>
+            <div class="course-col" onclick="">
+                <h3>AI</h3>
+                <p>Can't find what you are looking for? Use our AI to get it!</p>
+                <button id="calbtn"><a href="calculator.html">Open AI</a></button>
+            </div>
+            <div class="course-col" onclick="">
+                <h3>Secured Accounts</h3>
+                <p>Feel free to go anywhere. We are always here to make secured.</p>
+                <button id="calbtn"><a href="calculator.html">Get Started</a></button>
+            </div>
+        </div>
+    </section>
+
+
+<!----Hide or Open Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

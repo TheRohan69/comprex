@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>ABOUT US - VirtualPedia</title>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">What's New?</a></li>
+                    <li><a href="forum.html">FORUMS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="about">
+        <span>VirtualPedia</span>
+        <p>ABOUT US</p>
+    </div>
+    <div class="details">
+        <p>VirtualPedia is a free, online encyclopedia that anyone can edit. It is a comprehensive and up-to-date resource for information on a wide range of topics, from history and science to current events and pop culture. VirtualPedia is constantly being updated with new articles, and users can contribute their own knowledge and expertise to help make it the best possible resource for everyone.</p>
+        <p>Features of VirtualPedia:</p>
+        <ol>
+            <li>Easy to use</li>
+            <li>Up-to-date information</li>
+            <li>Comprehensive coverage of topics</li>
+            <li>AI and User-generated content</li>
+            <li>Easy to navigate</li>
+            <li>Accessible on all devices</li>
+        </ol>
+        <p>If you are looking for a comprehensive and up-to-date encyclopedia, then VirtualPedia is a great resource. It is free to use, anyone can contribute to the content, and it is constantly being updated with new information.</p>
+        <p>At VirtualPedia, we've curated an extensive collection of articles, spanning diverse fields, and we are continually expanding our repository to ensure you have access to the latest information. From ancient history to cutting-edge technology, from arts and literature to science and space exploration, we cover it all with meticulous research and up-to-date content.</p>
+        <p>Our user-friendly interface makes exploring VirtualPedia a breeze. The intuitive search function allows you to swiftly find the information you need, while our meticulously categorized articles make navigating through various topics a seamless experience. Our team of dedicated experts and contributors ensures that all articles are accurate, reliable, and engaging.</p>
+        <p>We believe in the power of education and the importance of staying informed. VirtualPedia is not just a website; it's a community that fosters curiosity and promotes lifelong learning. Whether you want to discover the mysteries of the ancient world, understand complex scientific theories, or learn about various cultures and traditions, VirtualPedia is the ideal platform for quenching your intellectual thirst.</p>
+        <p>In addition to textual content, VirtualPedia offers a treasure trove of multimedia resources. Engage with stunning images, captivating videos, and interactive elements that bring the information to life. Visual learners and those seeking a more immersive experience will find VirtualPedia's multimedia content particularly enriching.</p>
+        <p>VirtualPedia also encourages user participation and collaboration. We invite experts, enthusiasts, and educators from around the world to contribute their knowledge and insights, enriching our platform and ensuring a dynamic and ever-evolving encyclopedia.</p>
+        <p>As the digital age continues to revolutionize the way we access information, VirtualPedia remains at the forefront of knowledge dissemination, bringing the world's wealth of information right to your fingertips. Empower yourself with education, broaden your horizons, and embark on a journey of discovery with VirtualPedia – where learning knows no boundaries. Start exploring today and unlock the endless wonders of knowledge!</p>
+    </div>
+
+<!----Hide or Open Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
